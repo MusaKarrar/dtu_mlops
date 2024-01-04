@@ -21,7 +21,9 @@ def train(lr):
     # TODO: Implement training loop here
     model = MyAwesomeModel()
     train_set, _ = mnist()
-
+    
+#### I add this line
+model = MyAwesomModel()
 
 @click.command()
 @click.argument("model_checkpoint")
